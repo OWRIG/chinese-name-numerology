@@ -100,7 +100,7 @@ export const calcHour = (hour: number) => {
 };
 
 export const calcWuXing = (gz: string) => {
-	if (typeof gz !== "string") return "";
+	if (typeof gz !== "string") return { wx: "", fw: "" };
 	const tg = gz?.substring(0, 1);
 	const tgi = Gan.indexOf(tg);
 	let fw = Fw[((tgi / 2) | 0) % 5];
