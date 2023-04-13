@@ -5,7 +5,7 @@ interface IProps {
 }
 
 export default function Mingli(props: IProps) {
-	const { wuxing } = props;
+	const { wuxing = "" } = props;
 
 	const WXArr = ["金", "木", "水", "火", "土"];
 	const wuxingArr = wuxing.split("");

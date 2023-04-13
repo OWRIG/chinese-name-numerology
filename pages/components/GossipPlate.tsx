@@ -1,6 +1,7 @@
 import React from "react";
 import { List } from "@mantine/core";
 import dayjs from "dayjs";
+// @ts-ignore
 import calendar from "js-calendar-converter";
 import { calcHour, getCalc } from "@/utils/bazi";
 import Mingli from "./Mingli";

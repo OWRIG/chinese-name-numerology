@@ -1,4 +1,5 @@
 import React from "react";
+// @ts-ignore
 import { DateInput, DatesProvider } from "@mantine/dates";
 
 interface IDatePickerProps {
